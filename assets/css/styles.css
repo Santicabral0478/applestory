@@ -1,12 +1,8 @@
-/*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem; /*56px*/
 
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 152;
   --first-color: hsl(var(--hue), 24%, 32%);
   --first-color-alt: hsl(var(--hue), 24%, 28%);
@@ -18,8 +14,6 @@
   --body-color: hsl(var(--hue), 0%, 100%);
   --container-color: #FFF;
 
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -29,12 +23,9 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
-  /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --mb-0-5: .5rem;
   --mb-0-75: .75rem;
   --mb-1: 1rem;
@@ -42,12 +33,10 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
 
-  /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/* Responsive typography */
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
@@ -60,7 +49,6 @@
   }
 }
 
-/*=============== BASE ===============*/
 *{
   box-sizing: border-box;
   padding: 0;
@@ -80,7 +68,7 @@ body{
   margin: var(--header-height) 0 0 0;
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: .4s; /*For animation dark mode*/
+  transition: .4s; /
 }
 
 button{
@@ -110,7 +98,6 @@ img{
 
 
 
-/*=============== REUSABLE CSS CLASSES ===============*/
 .section{
   padding: 5.5rem 0 1rem;
 }
@@ -135,7 +122,6 @@ img{
 
 
 
-/*=============== HOME ===============*/
 .home{
   padding: 3.5rem 0 2rem;
   background: url(../img/appleFontMi.png);
@@ -170,7 +156,6 @@ img{
 
 
 
-/*=============== BUTTONS ===============*/
 .button{
   display: inline-block;
   background-color: #2f2f2f;
@@ -193,8 +178,6 @@ img{
 
 
 
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
 @media screen and (max-width: 320px){
   .container{
     margin-left: var(--mb-1);
@@ -254,7 +237,6 @@ img{
     margin-top: -3.3rem;
   }
 }
-/* For large devices */
 @media screen and (min-width: 910px){
 
 
