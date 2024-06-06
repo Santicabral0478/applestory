@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    background: rgb(197, 197, 197);
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu{
+    position: fixed;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    background:#ffffff;
+    height: 32rem;
+}
+
+.contenedor-nosotros{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 42rem;
+}
+
+
+
+
+
+
+.texto-nosotros p{
+    display: flex;
+    font-size: .95rem;
+    width: 30%;
+    margin: auto;
+    width: 70%;
+}
+
+.paragraphsA{
+    text-align: right;
+    margin-left: 60%;  
+    
+}
+
+.paragraphB{
+    text-align: left;
+    margin-left: -50%;
+    width: 40%;
+}  
+
+
+.font2{
+    height:100%;
+}
+
+
+
+
+@media screen and (max-width: 850px){
+
+  
+    .contenedor-nosotros{
+        height: 42rem;
+    }
+    
+    .contenedor-servicio{
+        height: 37rem;
+    }
+    
+
+    .texto-nosotros p{
+        font-size: .7rem;
+    }
+
+    .paragraphsA{
+        text-align: right;
+        margin-left: 40%;  
+        width: 50%;  
+    }
+    
+    .paragraphB{
+        text-align: left;
+        margin-left: -40%;
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (max-width: 450px){
+
+
+    .font1{
+        background-position: 36%;
+        background-size:cover;
+        background-blend-mode: soft-light;
+    }
+    
+    .font3{
+        background-position: 60%;
+        background-size:cover;
+        background-blend-mode: soft-light;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 850px){
+
+    .contenedor-nosotros{
+        height: 42rem;
+    }
+
+}
+
+
+
+
+
+
+.back1{
+    background: url(../img/picture0.png);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: soft-light;    
+}
+
+.back2{
+    background: url(../img/picture1.png);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: soft-light;    
+}
+.back3{
+    background: url(../img/picture2.png);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: soft-light;    
+}
+.back4{
+    background: url(../img/picture3.png);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: soft-light;    
+}
+.back5{
+    background: url(../img/picture4.png);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: soft-light;    
+}
+.back6{
+    background: url(../img/picture5.png);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: soft-light;    
+}
+.back7{
+    background: url(../img/picture6.png);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: soft-light;    
+}
+.back8{
+    background: url(../img/picture7.png);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: soft-light;    
+}
+.back9{
+    background: url(../img/picture8.png);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: soft-light;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
